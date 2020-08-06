@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfólio</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <!-- barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info text-white">
+      <div class="container d-flex align-items-start">
+        <a class="navbar-brand text-white link-reprograma" href="/index.html">
+          <h4 class="logo-reprograma">
+            <img src="https://img.icons8.com/wired/64/000000/source-code.png" />
+          </h4>
+        </a>
+        <div class="text-right">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Alterna navegação"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#sobre">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#portfolio">Portfólio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- perfil -->
+    <header
+      class="container my-5 d-flex flex-column align-items-center justify-content-center flex-lg-row"
+    >
+      <div class="mx-lg-5">
+        <img
+          src="./assets/img/MIUY5439.JPG"
+          alt="Foto Maria Souza"
+          class="foto-nina"
+        />
+      </div>
+      <div
+        class="d-flex flex-column align-items-center mt-4 mt-lg-0 mx-lg-5 text-center"
+      >
+        <h4>Maria Souza</h4>
+        <span class="font-italic">Desenvolvedora Front-end</span>
+        <div class="redes-sociais mt-4 d-flex flex-column">
+          <a
+            class="text-dark d-flex align-items-center my-1"
+            href="https://github.com/riamavx"
+            target="_blank"
+          >
+            <i class="fab fa-github-alt mr-2"></i>
+            <span class="link-texto">github.com/riamavx</span>
+          </a>
+          <a
+            class="text-dark d-flex align-items-center my-1"
+            href="https://www.linkedin.com/in/maria-souza-oliveira/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin mr-2"></i>
+            <span class="link-texto">linkedin.com/mariasouza</span>
+          </a>
+          <a
+            class="text-dark d-flex align-items-center my-1"
+            href="mailto:messenger.mariah2017@gmail.com"
+            target="_blank"
+          >
+            <i class="fas fa-envelope mr-2"></i>
+            <span class="link-texto">messenger.mariah2017@gmail.com</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- sobre -->
+    <section id="sobre" class="sobre py-5 text-white">
+      <div class="container">
+        <div class="row d-flex flex-column align-items-center flex-lg-row">
+          <!-- habilidades -->
+          <div class="col-sm-8 col-lg-6 text-center habilidades">
+            <h4>Habilidades</h4>
+            <div class="row mt-4 mx-lg-4 justify-content-center">
+              <div class="skill">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+              </div>
+              <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+              </div>
+              <div class="skill">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+              </div>
+              <div class="skill">
+                <i class="fab fa-sass"></i>
+                <p>Sass</p>
+              </div>
+              <div class="skill">
+                <i class="fas fa-book"></i>
+                <p>jQuery</p>
+              </div>
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>React</p>
+              </div>
+              <div class="skill">
+                <i class="fab fa-bootstrap"></i>
+                <p>Bootstrap</p>
+              </div>
+              <div class="skill">
+                <i class="fab fa-git-alt"></i>
+                <p>Git</p>
+              </div>
+              <div class="skill">
+                <i class="fas fa-tasks"></i>
+                <p>Scrum</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- sobre -->
+          <div class="col-lg-6 text-center mt-5 mt-lg-0 sobre-descricao">
+            <h4 class="mb-4">Sobre</h4>
+            <p class="my-3 font-weight-light">
+              Aluna do <span>bootcamp de front-end</span> da {reprograma}, com
+              conclusão em julho de 2020.
+            </p>
+            <p class="my-3 font-weight-light">
+              Formada em Comércio Exterior. Aprendi e pratiquei nesse período
+              HTML5, CSS, JS, JQUERY, BOOTSTRAP e REACT, desde projetos com
+              clientes reais a projetos voluntários. Antes do bootcamp trabalhei
+              com atendimento ao público, área administrativa e supervisionando
+              uma equipe de quase 15 pessoas como fiscal de loja.
+            </p>
+            <p class="my-3 font-weight-light">
+              Outras áreas de interesse:
+              <span>metodologias ágeis, UX, Python</span>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="text-center py-5 mb-lg-5" id="portfolio">
+      <div class="container">
+        <h4>Portfólio</h4>
+        <div class="card-group mt-5">
+          <!-- card M de maravilhosa -->
+          <div
+            class="card col-sm mx-sm-2 mx-lg-3 mx-xl-5 p-0 mb-5 mb-lg-0 bg-light text-dark card-container"
+            data-toggle="modal"
+            data-target="#modalmMaravilhosa"
+          >
+            <div class="card-img card-mMaravilhosa"></div>
+            <div class="card-body p-3">
+              <h5 class="card-title mb-1">Projeto M de maravilhosa</h5>
+              <p class="card-text">Abril/2020</p>
+              <a
+                href="#"
+                class="card-link text-danger"
+                data-toggle="modal"
+                data-target="#modalmMaravilhosa"
+                >Ver mais</a
+              >
+            </div>
+          </div>
+
+          <!-- modal M de Maravilhosa -->
+          <div
+            class="modal fade"
+            id="modalmMaravilhosa"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="modalmMaravilhosa"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalmMaravilhosa">
+                    Projeto M de maravilhosa
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-left">
+                    O projeto M de maravilhosa ocorreu no primeiro mês de curso,
+                    o desafio era escolher uma mulher que lhe inspirasse. Nesse
+                    projeto foi aplicado HTML e Css, a página está responsiva, o
+                    que foi um desafio.
+                  </p>
+                  <img
+                    src="./assets/img/capa-projeto-maravilhosa.png"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+                <div class="modal-footer">
+                  <a
+                    href="https://projeto-mdemaravilhosa-maria.netlify.app/"
+                    class="btn btn-info text-white link-modal"
+                    target="_blank"
+                    >Ver site</a
+                  >
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Fechar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fim modal M de Maravilhosa -->
+
+          <!-- card to do list -->
+          <div
+            class="card col-sm mx-sm-2 mx-lg-3 mx-xl-5 p-0 mb-5 mb-lg-0 bg-light text-dark card-container"
+            data-toggle="modal"
+            data-target="#modalToDoList"
+          >
+            <div class="card-img card-todolist"></div>
+            <div class="card-body p-3">
+              <h5 class="card-title mb-1">ToDo List</h5>
+              <p class="card-text">Maio/2020</p>
+              <a
+                href="#"
+                class="card-link text-danger"
+                data-toggle="modal"
+                data-target="#modalToDoList"
+                >Ver mais</a
+              >
+            </div>
+          </div>
+
+          <!-- modal to do list -->
+          <div
+            class="modal fade"
+            id="modalToDoList"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="modalToDoListTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalToDoListTitle">
+                    To Do List
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-left">
+                    O ToDo List foi constriudo a partir dos conhecimentos
+                    adquiridos com as aulas de lógica de programação e Js, foi
+                    aplicado arrow functions.
+                  </p>
+                  <img src="./assets/img/todo-list.jpeg" alt="" width="100%" />
+                </div>
+                <div class="modal-footer">
+                  <a
+                    href="https://projeto-todolist-maria.netlify.app/"
+                    class="btn btn-info text-white link-modal"
+                    target="_blank"
+                    >Ver site</a
+                  >
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Fechar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fim modal to do list -->
+
+          <!-- card cozinha re -->
+          <div
+            class="card col-sm mx-sm-2 mx-lg-3 mx-xl-5 p-0 mb-5 mb-lg-0 bg-light text-dark card-container"
+            data-toggle="modal"
+            data-target="#modalcozinhaRe"
+          >
+            <div class="card-img card-cozinhaRe"></div>
+            <div class="card-body p-3">
+              <h5 class="card-title mb-1">Cozinha da Rê</h5>
+              <p class="card-text">Maio/2020</p>
+              <a
+                href="#"
+                class="card-link text-danger"
+                data-toggle="modal"
+                data-target="#modalcozinhaRe"
+                >Ver mais</a
+              >
+            </div>
+          </div>
+
+          <!-- modal cozinha rê -->
+          <div
+            class="modal fade"
+            id="modalcozinhaRe"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="modalcozinhaReTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalcozinhaReTitle">
+                    MdeMaravilhosa - Ada Lovelace
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-left">
+                    O projeto com cliente real foi um dos projetos mais
+                    desafiadores, foi o primeiro contato com um cliente de
+                    verdade aonde tinhamos que dar vida ao prótotipo que
+                    recebemos pelo Figma e aplicar todo o conhecimento que
+                    adquirimos até o momento foi feito em grupo e foi dividido
+                    em partes, usamos o Trello como ferramenta de organização.
+                    Nele foram utilizadas: HTML, CSS, JS, JQUERY, BOOTSTRAP e
+                    FIGMA.
+                  </p>
+                  <img
+                    src="./assets/img/logo-cozinha-re.png"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+                <div class="modal-footer">
+                  <a
+                    href="https://www.cozinhadare.com.br/"
+                    class="btn btn-info text-white link-modal"
+                    target="_blank"
+                    >Ver site</a
+                  >
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Fechar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fim modal cozinha rê -->
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center py-5 mb-lg-5" id="portfolio">
+      <div class="container">
+        <div class="card-group mt-5">
+          <!-- card coohabras -->
+          <div
+            class="card col-sm mx-sm-2 mx-lg-3 mx-xl-5 p-0 mb-5 mb-lg-0 bg-light text-dark card-container"
+            data-toggle="modal"
+            data-target="#modalcoohabras"
+          >
+            <div class="card-img card-coohabras"></div>
+            <div class="card-body p-3">
+              <h5 class="card-title mb-1">Coohabras</h5>
+              <p class="card-text">Junho/2020</p>
+              <a
+                href="#"
+                class="card-link text-danger"
+                data-toggle="modal"
+                data-target="#modalcoohabras"
+                >Ver mais</a
+              >
+            </div>
+          </div>
+
+          <!-- modal coohabras -->
+          <div
+            class="modal fade"
+            id="modalcoohabras"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="modalcoohabrasTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalcoohabrasTitle">
+                    Projeto Voluntario Coohabras
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-left">
+                    Projeto teve com finalidade desenvolver um novo site para
+                    coohabras com parceria da ong Invenção Z. Feito em grupo.
+                    Tecnologias utilizadas: -HTML5 -CSS3 -JavaScript -Jquery
+                  </p>
+                  <img src="./assets/img/coohabras-img.jpeg" alt="" width="100%" />
+                </div>
+                <div class="modal-footer">
+                  <a
+                    href="https://www.coohabras.org.br/"
+                    class="btn btn-info text-white link-modal"
+                    target="_blank"
+                    >Ver site</a
+                  >
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Fechar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fim modal coohabras -->
+
+          <!-- card proj final -->
+          <div
+            class="card col-sm mx-sm-2 mx-lg-3 mx-xl-5 p-0 mb-5 mb-lg-0 bg-light text-dark card-container"
+            data-toggle="modal"
+            data-target="#modalghibli"
+          >
+            <div class="card-img card-ghibli"></div>
+            <div class="card-body p-3">
+              <h5 class="card-title mb-1">Filmes do Ghibli</h5>
+              <p class="card-text">Julho/2020</p>
+              <a
+                href="#"
+                class="card-link text-danger"
+                data-toggle="modal"
+                data-target="#modalghibli"
+                >Ver mais</a
+              >
+            </div>
+          </div>
+
+          <!-- modal proj final -->
+          <div
+            class="modal fade"
+            id="modalghibli"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="modalghibliTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalghibliTitle">
+                    Filmes Ghibli
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-left">
+                    Meu projeto final do Bootcamp foi sobre o Studio Ghibli, foi uma semana emocionante.
+                    Nele pude aplicar Html, css, Js, jquery e bootstrap.
+                  </p>
+                  <img src="./assets/img/Studio-Ghibli-Logo.jpg" alt="" width="100%" />
+                </div>
+                <div class="modal-footer">
+                  <a
+                    href="https://ghibli-movies.netlify.app/index.html"
+                    class="btn btn-info text-white link-modal"
+                    target="_blank"
+                    >Ver site</a
+                  >
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Fechar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fim modal proj final -->
+
+          <!-- card proj react -->
+          <div
+            class="card col-sm mx-sm-2 mx-lg-3 mx-xl-5 p-0 mb-5 mb-lg-0 bg-light text-dark card-container"
+            data-toggle="modal"
+            data-target="#modaltechJobs"
+          >
+            <div class="card-img card-techJobs"></div>
+            <div class="card-body p-3">
+              <h5 class="card-title mb-1">TechJobs</h5>
+              <p class="card-text">Junho/2020</p>
+              <a
+                href="#"
+                class="card-link text-danger"
+                data-toggle="modal"
+                data-target="#modaltechJobs"
+                >Ver mais</a
+              >
+            </div>
+          </div>
+
+          <!-- modal proj react -->
+          <div
+            class="modal fade"
+            id="modaltechJobs"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="modaltechJobsTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modaltechJobsTitle">
+                    TechJobs
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-left">
+                    Primeiro contato com React, aprendendo sobre atomic design
+                  </p>
+                  <img
+                    src="./assets/img/"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+                <div class="modal-footer">
+                  <a
+                    href="https://projeto-semana-react.netlify.app/"
+                    class="btn btn-info text-white link-modal"
+                    target="_blank"
+                    >Ver site</a
+                  >
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Fechar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fim modal proj react -->
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- rodapé -->
+    <footer class="rodape text-white text-center py-2">
+      <small
+        >Desenvolvido por Maria Souza
+        <span
+          ><a href="http://reprograma.com.br/index.html" target="_blank"
+            >{reprograma}</a
+          ></span
+        >
+        2019</small
+      >
+    </footer>
+
+    <script src="./assets/js/jquery.slim.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

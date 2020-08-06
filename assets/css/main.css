@@ -1,0 +1,84 @@
+a:hover {
+    text-decoration: none;
+}
+
+.sobre, .rodape {
+    background-color: #2A3852;
+}
+
+
+nav a:hover {
+    color: #2A3852!important;
+}
+
+.foto-nina {
+    height: 400px;
+    border-radius: 10px;
+}
+
+.redes-sociais a:hover {
+    color: #17a2b8!important;
+}
+
+.redes-sociais i {
+    color: #2A3852;
+    font-size: 28px;
+}
+
+.sobre-descricao span {
+    font-weight: 500;
+}
+
+.skill {
+    width: 130px;
+    margin: 5px 0;
+}
+
+.skill i {
+    font-size: 36px;
+}
+
+.card-container {
+    border-radius: 5px!important;
+}
+
+.card-img {
+    min-height: 248.5px;
+    background-size: cover;
+}
+
+.card-mMaravilhosa {
+    background-image: url(../img/capa-projeto-maravilhosa.png)
+}
+
+.card-todolist {
+    background-image: url(../img/todo-list.jpeg);
+    background-position-x: center;
+}
+
+.card-cozinhaRe {
+    background-image: url(../img/capa-projeto-cozinha.png)
+}
+
+.card-coohabras{
+    background-image: url(../img/coohabras-logo.jpg)
+}
+
+.card-ghibli{
+    background-image: url(../img/Studio-Ghibli-Logo.jpg)
+}
+
+.rodape a {
+    color: #16A2B8;
+}
+
+/* checar responsivo no bootstrap */
+@media (max-width: 420px) {
+    .skill {
+        width: 100px;
+    }
+
+    .card-img {
+        min-height: 300px;
+    }
+}
