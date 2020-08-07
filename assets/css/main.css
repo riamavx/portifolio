@@ -48,12 +48,14 @@ nav a:hover {
 }
 
 .card-mMaravilhosa {
-    background-image: url(../img/capa-projeto-maravilhosa.png)
+    background-image: url(../img/Ada-Lovelace-colagem.png);
+    
 }
 
 .card-todolist {
     background-image: url(../img/todo-list.jpeg);
     background-position-x: center;
+    
 }
 
 .card-cozinhaRe {
@@ -61,7 +63,7 @@ nav a:hover {
 }
 
 .card-coohabras{
-    background-image: url(../img/coohabras-logo.jpg)
+    background-image: url(../img/coohabras-img.jpeg)
 }
 
 .card-ghibli{
