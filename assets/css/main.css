@@ -49,25 +49,34 @@ nav a:hover {
 
 .card-mMaravilhosa {
     background-image: url(../img/Ada-Lovelace-colagem.png);
+    background-position-x: center;
     
 }
 
 .card-todolist {
-    background-image: url(../img/todo-list.jpeg);
+    background-image: url(../img/todolist-mobile.png);
     background-position-x: center;
     
 }
 
 .card-cozinhaRe {
-    background-image: url(../img/capa-projeto-cozinha.png)
+    background-image: url(../img/cozinhare-mobile.png);
+    background-position-x: center;
 }
 
 .card-coohabras{
-    background-image: url(../img/coohabras-img.jpeg)
+    background-image: url(../img/coohabras-img-mobile.png);
+    background-position-x: center;
 }
 
 .card-ghibli{
-    background-image: url(../img/Studio-Ghibli-Logo.jpg)
+    background-image: url(../img/Studio-Ghibli-Logo.jpg);
+    background-position-x: center;
+}
+
+.card-techJobs{
+    background-image: url(../img/techjob-mobile.png);
+    background-position-x: center;
 }
 
 .rodape a {
